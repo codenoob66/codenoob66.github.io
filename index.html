@@ -5,13 +5,56 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
-    <!-- Add your CSS stylesheets, meta tags, or other head elements here -->
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
 </head>
 
 <body>
+
     <header class="header">
-        <a href="#home" class="logo">Rafael Vincent Cordova</a>
+        <a href="#home" class="logo">Rafael Vincent B.
+        <span>Cordova</span></a>
+
+        <i class='bx bx-menu' id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#education">Education</a>
+            <a href="#Portfolio">Portfolio</a>
+            <a href="#CurrentProjects">Current Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
     </header>
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h1>Hi, I'm <span>Rafael</span></h1>
+            <h3 class="text-animation">I'm a <span></span></h3>
+            <p>
+                Dedicated and fast-learning individual with a passion for coding and web development. Recently embarked on a journey
+                into the tech industry, completing rigorous bootcamps and earning certifications in JavaScript, HTML, and CSS. Currently
+                honing backend development skills to complement frontend expertise. Excited to contribute to dynamic projects and
+                continue expanding proficiency in full-stack development.</p>
+
+            <div class="social-icons">
+                <a href="#"><i class='bx bxl-linkedin'></i></a>
+                <a href="#"><i class='bx bxl-github'></i></a>
+                <a href="#"><i class='bx bxl-instagram'></i></a>
+                <a href="#"><i class='bx bxl-facebook-square'></i></a>
+            </div>
+
+            <div class="btn-group">
+            <a href="#" class="btn">Hire</a>
+            <a href="#contact" class="btn">Contact</a>
+            </div>
+        </div>
+            <div class="home-img">
+                <img src="Images/339804511_756471692508789_6299433205244416563_n.jpg" alt="">
+            </div>
+    </section>
+
+    <script src="script.js"></script>
 </body>
 
 </html>
